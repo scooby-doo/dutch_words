@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dutch Words</string>
+    <string name="action_settings">Settings</string>
+    <string name="greetings">Hi Scooby</string>
+    <string name="edit_definition">Enter a dutch word</string>
+    <string name="edit_translation">Enter its translation</string>
+    <string name="button_add">Add Word</string>
+    <string name="button_get">Get a word</string>
+    <string name="button_clear">Clear</string>
+    <string name="button_back">Main Page</string>
+    <string name="button_next">Next word</string>
+    <string name="button_exit">Go back to main screen</string>
+</resources>
