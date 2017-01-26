@@ -62,6 +62,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void mainSearchWord(View view){
+        Intent intent = new Intent(this, SearchWordActivity.class);
+        startActivity(intent);
+    }
+
     /** Called when user clicks the Get Word and Next Word button */
     public void clearWord(View view) {
         TextView  definition = (TextView) findViewById(R.id.edit_definition);

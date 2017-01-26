@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_word"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dutchwords.edu.dutchwords.SearchWordActivity">
+
+    <EditText android:id="@+id/search_edit_definition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_definition" />
+
+    <Button
+        android:id="@+id/search_button_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_search"
+        android:onClick="searchWord"
+        android:layout_below="@+id/search_edit_definition"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/search_button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_back"
+        android:onClick="back"
+        android:layout_below="@+id/search_edit_definition"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@+id/search_button_search"
+        android:layout_marginStart="100dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_clear"
+        android:onClick="clearWord"
+        android:layout_alignBaseline="@+id/search_button_back"
+        android:layout_toEndOf="@+id/search_button_back"
+        android:layout_marginStart="18dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="130dp">
+    </ListView>
+
+</RelativeLayout>

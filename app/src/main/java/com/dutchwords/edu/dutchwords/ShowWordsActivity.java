@@ -1,5 +1,6 @@
 package com.dutchwords.edu.dutchwords;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -39,6 +40,11 @@ public class ShowWordsActivity extends AppCompatActivity {
 
     public void back(View view) {
         finish();
+    }
+
+    public void searchWord(View view){
+        Intent intent = new Intent(this, SearchWordActivity.class);
+        startActivity(intent);
     }
 
 

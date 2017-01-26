@@ -6,8 +6,9 @@
     <string name="edit_translation">Enter its translation</string>
     <string name="button_add">Add Word</string>
     <string name="button_get">Get a word</string>
+    <string name="button_search">Search</string>
     <string name="button_clear">Clear</string>
-    <string name="button_back">Main Page</string>
+    <string name="button_back">Back</string>
     <string name="button_next">Next word</string>
     <string name="button_exit">Go back to main screen</string>
 </resources>
